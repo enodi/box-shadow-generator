@@ -1,0 +1,20 @@
+.text-header {
+  display: flex;
+  justify-content: space-between;
+
+  > span {
+    font-size: $s-size;
+  }
+}
+
+input {
+  // color: #aaa;
+  font-size: $s-size;
+  margin-right: 1rem;
+  // width: 3.5rem;
+}
+
+.colorInput {
+  width: 8rem;
+  margin-right: 0;
+}
